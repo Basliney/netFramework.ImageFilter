@@ -173,7 +173,7 @@ namespace Detector
                             convertedBMP.SetPixel(i, j, mixImg.GetPixel(i, j));
                         }
                     }
-                    if (i % 5 == 0)
+                    if (i % 10 == 0)
                     {
                         pictureBox1.Image = convertedBMP;
                         Refresh();
@@ -221,7 +221,7 @@ namespace Detector
 
                         convertedBMP.SetPixel(i, j, Color.FromArgb(red, green, blue));
                     }
-                    if (i % 5 == 0)
+                    if (i % 10 == 0)
                     {
                         pictureBox1.Image = convertedBMP;
                         Refresh();
